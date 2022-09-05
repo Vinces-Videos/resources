@@ -1,4 +1,4 @@
-# ADR 1: Three tiered architecture
+# ADR 1: Layered architecture
 
 # Context
 This is an example project where the primary goal is to help people grow and improve their skills as well as help to build their social network within Made Tech.
@@ -10,20 +10,17 @@ The developers on the team have experience of a wide range of different programm
 Many of the team have not delivered software in line with the UK governments Service Manual, as a result another goal of this project is to improve the teams understanding of and challenges that come with delivering software inline with the service manual.
 
 # Decision
-## Option 1
-We decided that the most flexible approach that would help facilitate the team's learning would be to follow the three tiered architecture approach consisting of a presentation tier (web application), an application tier (REST API) and a data tier (SQL Database).
+We decided that the most flexible approach that would help facilitate the team's learning would be to follow the three tiered layered architecture approach consisting of a presentation tier (web application), a business layer (REST API) and a data tier (SQL Database).
 
 Additionally this would allow more concurrent work streams as developers could work on different tiers simultaneously when working on a user story.
-## Option 2
-We decided that the API layer and Data layer should live together…
+
+The Layered pattern also lends itself to high testability and high ease of development as this pattern is well known and not overly complex to implement.
 
 # Status
-Pending.
+Accepted.
 
 # Consequences
-## Option 1
 This results in having to manage three separate repositories, for the UI, one for the API and one for the database.
 Allows future developers to revisit the project and recreate and integrate any tier they wish using a different technology.
-
-## Option 2
-
+The complexity is low providing, making it easy to pick up and learn.
+This pattern is one of the most widely adopted patterns thus provides a solid base of learning for those new to software development and can be easily picked up by experienced developers.
