@@ -20,6 +20,7 @@ Serverless was another option, running code within Llamba functions in AWS howev
 We will use C# .Net Core 6.0 to build the API both because there are learning opportunities in this area for the development team but also because it will allow the team to focus their learning in other areas of the project, such as CI/CD, cloud infrastructure and delivering software in line with the UK Governments Service Manual.
 
 Ruby and NodeJS were not chosen as the development team felt there would be limited support and leadership within the team which would likely impact the team's velocity.
+
 # Status
 Accepted.
 

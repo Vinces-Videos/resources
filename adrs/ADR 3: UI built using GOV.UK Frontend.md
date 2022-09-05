@@ -10,8 +10,8 @@ Many of the team have not delivered software in line with the UK governments Ser
 Most of the team were keen to constrain the project by following the service manual.
 
 # Decision
-
 We will use the GOV.UK Frontend which contains the code needed to start building a user interface for government platforms and services.
+
 # Status
 Accepted.
 
